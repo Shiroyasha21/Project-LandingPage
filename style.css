@@ -32,9 +32,10 @@ button {
     text-align: center;
     font-size: 15px;
     color: #f9faf8;
-    padding: 8px 12px;
+    padding: 6px 8px;
     margin: 4px 2px;
-    width: 90px;
+    width: 80px;
+    cursor: pointer;
 }
 
 /* 1st section */
@@ -139,4 +140,53 @@ button {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+
+/* 5th section */
+
+.sign2 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+.text1 {
+    font-weight: bolder;
+    font-size: 22px;
+    color: #f9faf8;
+}
+
+.text2 {
+    font-size: 17px;
+    color: #f9faf8;
+}
+
+
+.actionprompt {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 72px;
+}
+
+.thetext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+/* 6th section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 32px;
 }
