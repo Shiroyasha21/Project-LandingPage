@@ -46,26 +46,32 @@ button {
     align-items: center;
     background-color: #1F2937;
     margin: 0;
-    padding: 0 168px;
+    padding: 0 418px;
 }
 
 .main {
     color: #f9faf8;
 }
 
+.logo {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
 .secondary {
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: bold;
 }
 
 /* 2nd section */
 
 .display {
     background-color: #1F2937;
-    padding: 52px 168px;
+    padding: 52px 418px;
     margin: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex: 1 0 0;
     justify-content: center;
     align-items: flex-start;
@@ -193,7 +199,7 @@ button {
     gap: 52px;
     border-radius: 8px;
     padding: 32px;
-    margin: 52px 168px 52px 168px;
+    margin: 52px 528px 52px 528px;
 }
 
 .thetext {
