@@ -46,8 +46,7 @@ button {
     align-items: center;
     background-color: #1F2937;
     margin: 0;
-    padding-right: 42px;
-    padding-left: 42px;
+    padding: 0 168px;
 }
 
 .main {
@@ -63,11 +62,13 @@ button {
 
 .display {
     background-color: #1F2937;
-    padding-right: 42px;
-    padding-left: 42px;
+    padding: 52px 168px;
     margin: 0;
     display: flex;
     gap: 10px;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .maintext {
@@ -76,9 +77,13 @@ button {
 }
 
 .displayimg {
-    object-fit: contain;
-    max-width: 450px;
-    max-height: 450px;
+    object-fit: fill;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    flex-shrink: 1;
 }
 
 .Moto {
@@ -94,10 +99,15 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .motor {
-    object-fit: contain;
+    object-fit: fill;
     max-width: 200px;
     max-height: 200px;
 }
@@ -105,14 +115,15 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 16px 230px 58px 230px;
 }
 
 .description {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 32px;
 }
 
@@ -123,6 +134,7 @@ button {
     align-items: center;
     flex: 1;
     max-width: 200px;
+    text-align: center;
 }
 
 
@@ -131,15 +143,26 @@ button {
 .quote {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 108px 230px;
+    gap: 5px;
 }
 
 .textquote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    color: grey;
+}
+
+.auth {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 /* 5th section */
@@ -170,14 +193,14 @@ button {
     gap: 52px;
     border-radius: 8px;
     padding: 32px;
-    margin: 72px;
+    margin: 52px 168px 52px 168px;
 }
 
 .thetext {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: solid black;
+    
 }
 
 /* 6th section */
@@ -188,5 +211,5 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 32px;
+    padding: 24px;
 }
